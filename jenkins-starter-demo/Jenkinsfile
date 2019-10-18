@@ -1,0 +1,10 @@
+node{
+stage("SCM Checkout")
+{
+git 'https://github.com/saurabhchaturvedy/bootjenkins'
+}
+stage("Compile-Package")
+{
+sh 'maven package'
+}
+}
