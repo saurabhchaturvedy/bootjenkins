@@ -13,7 +13,7 @@ public class PrimeNumber {
 	}
 
 	public static void main(String[] args) {
-		int x = 8;
+		int x = 7;
 		boolean prime = isPrime(x);
 		System.out.println("number is prime " + prime);
 
